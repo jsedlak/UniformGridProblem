@@ -9,9 +9,9 @@
 
     <ScrollViewer Background="Green">
         <ItemsRepeater Background="Aqua" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ItemsSource="{x:Bind Path=Pods}" >
-            <!--<ItemsRepeater.Layout>
+            <ItemsRepeater.Layout>
                 <UniformGridLayout MinColumnSpacing="15" MinItemHeight="150" MinItemWidth="250" Orientation="Horizontal" />
-            </ItemsRepeater.Layout>-->
+            </ItemsRepeater.Layout>
         </ItemsRepeater>
     </ScrollViewer>
 </Window>
